@@ -13,8 +13,10 @@
 </head>
 <body>
     <?php
-        $TheDetails= new Movies('Red Notice','2021','Rawson Marshall Thurber','Rawson Marshall Thurber','Italy','English',['Dwayne Johnson','Ryan Reynolds','Gal Gadot','Ritu Arya']);
-        var_dump($TheDetails);
-    ?>
+        $film= new Movies('Red Notice','2021','Rawson Marshall Thurber','Rawson Marshall Thurber','Italy','English',['Dwayne Johnson','Ryan Reynolds','Gal Gadot','Ritu Arya']);
+        var_dump($film);
+        var_dump($film->countCast())
+        ?>
+
 </body>
 </html>
